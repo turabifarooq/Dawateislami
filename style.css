@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Futura bk bt";
+}
+div.navbar{
+    background-color: #143638;
+    height: 120px;
+    /* border: 3px solid red; */
+}
+ol.navbarolist{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+img.logo{
+    width: 20px;
+}
+li.navbarlist{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+}
+li.imagebar{
+    text-align: center;
+}
+img.imgbar{
+    width: 650px;
+    padding-top: 3px;
+}
+div.secbar{
+    background-color: #dddddd;
+    /* border: 3px solid blue; */
+    height: 70px;
+}
+li.secbarlist{
+    display: inline;
+    padding: 20px;
+}
+ol.secbarolist{
+    text-align: center;
+    padding-top: 25px;
+}
+li#linkchannel{
+    margin-left: 500px;
+    border: 3px solid #143638;
+    border-radius: 10px;
+    background-color: #143638;
+    color: white;
+}
+li#linkchannel:hover{
+    background-color: white;
+    color: #143638;
+    border: 1px solid white;
+}
+div.two-containers{
+    /* border: 3px solid chocolate; */
+}
+div.two-containers::after{
+    content: " "; display: block; clear: both;
+}
+
+div.left-container{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 60%;
+    border-top: 3px solid red;
+    padding: 20px;
+    float: left;
+}
+h2#firsthead{
+    width: fit-content;
+    background-color: red;
+    padding: 12px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    color: white;
+}
+div.left-container::after{
+    content: " "; display: block; clear: both;
+}
+.left-sideone{
+    float: left;
+    /* border: 3px solid cyan; */
+}
+.left-sidetwo{
+    float: left;
+    margin-left: 60px;
+    /* border: 3px solid brown; */
+
+}
+img.imgbar2{
+    width: 130px;
+    padding-top: 20px;
+}
+
+#img{
+    padding-top: 0px;
+}
+
+.left-sidethree{
+    float: left;
+    margin-left: 30px;
+    width: 20%;
+}
+#headtext2{
+    padding-top: 59px;
+}
+#headtext3{
+    padding-top: 70px;
+}
+.paratext{
+    padding-top: 7px;
+    font-size: 13px;
+}
+div.right-container{
+    border-top: 3px solid green;
+    float: right;
+    width: 32%;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+h2#sechead{
+    width: fit-content;
+    background-color: green;
+    padding: 12px;
+    position: absolute;
+    top: 200px;
+    right: 272px;
+    color: white;
+}
+img#ameer-e-ahlesunnat{
+    padding-top: 20px;
+    width: 350px;
+    margin-left: 20px;
+}
+#thirdhead{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#paragraph{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 400px;
+}
+div.right-sideone{
+    /* border: indigo 3px solid; */
+    margin-top: 30px;
+    width: 30%;
+    float: left;
+}
+img#madanimuzakra{
+    width: 100px;
+    margin-left: 15px;
+}
+img#audiobook{
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 20px;
+}
+div.right-sidetwo{
+    /* border: 3px solid orangered; */
+    width: 65%;
+    float: right;
+    margin-top: 30px;
+}
+#fifthhead{
+    margin-top: 20px;
+}
+#paragraph2{
+    margin-top: 4px;
+}
+#paragraph3{
+    margin-top: 4px;
+}
